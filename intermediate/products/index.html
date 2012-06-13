@@ -1,0 +1,169 @@
+<!doctype html>
+<!-- Conditional comment for mobile ie7 http://blogs.msdn.com/b/iemobile/ -->
+<!--[if IEMobile 7 ]>
+<html class="no-js iem7"> <![endif]-->
+<!--[if (gt IEMobile 7)|!(IEMobile)]><!-->
+<html class="no-js"> <!--<![endif]-->
+
+<head>
+    <meta charset="utf-8">
+
+<title>Quad.io Products</title>
+<meta name="description" content="">
+
+<meta name="author" content="Ryan Connelly">
+
+<!-- Mobile viewport optimization http://goo.gl/z0PA8 -->
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- Home screen icon  Mathias Bynens http://goo.gl/6nVq0 -->
+<!-- For iPhone 4 with high-resolution Retina display: -->
+<link rel="apple-touch-icon-precomposed" sizes="114x114" href="/img/h/apple-touch-icon.png">
+<!-- For first-generation iPad: -->
+<link rel="apple-touch-icon-precomposed" sizes="72x72" href="/img/m/apple-touch-icon.png">
+<!-- For non-Retina iPhone, iPod Touch, and Android 2.1+ devices: -->
+<link rel="apple-touch-icon-precomposed" href="/img/l/apple-touch-icon-precomposed.png">
+<!-- For nokia devices: -->
+<link rel="shortcut icon" href="/img/l/apple-touch-icon.png">
+
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+<!-- iOS web app, deletable if not needed -->
+<!-- -->
+
+<!-- 320x460 for iPhone 3GS -->
+<!-- <link rel="apple-touch-startup-image" media="(max-device-width: 480px) and not (-webkit-min-device-pixel-ratio: 2)" href="img/startup.png"> -->
+<!-- 640x920 for retina display -->
+<!-- <link rel="apple-touch-startup-image" media="(max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2)" href="img/startup-retina.png"> -->
+<!-- iPad Portrait 768x1004 -->
+<!-- <link rel="apple-touch-startup-image" media="(min-device-width: 768px) and (orientation: portrait)" href="img/startup-tablet-portrait.png"> -->
+<!-- iPad Landscape 1024x748 -->
+<!-- <link rel="apple-touch-startup-image" media="(min-device-width: 768px) and (orientation: landscape)" href="img/startup-tablet-landscape.png"> -->
+
+<!-- The script prevents links from opening in mobile safari. https://gist.github.com/1042026 -->
+<!-- <script>(function(a,b,c){if(c in b&&b[c]){var d,e=a.location,f=/^(a|html)$/i;a.addEventListener("click",function(a){d=a.target;while(!f.test(d.nodeName))d=d.parentNode;"href"in d&&(d.href.indexOf("http")||~d.href.indexOf(e.host))&&(a.preventDefault(),e.href=d.href)},!1)}})(document,window.navigator,"standalone")</script> -->
+
+<!-- Mobile IE allows us to activate ClearType technology for smoothing fonts for easy reading -->
+<meta http-equiv="cleartype" content="on">
+
+<!-- more tags for your 'head' to consider https://gist.github.com/849231 -->
+
+<!-- Main Stylesheet -->
+
+<!-- 1140px Grid styles for IE -->
+<!--[if lte IE 9]>
+<link rel="stylesheet" href="/css/ie.css?v=1" type="text/css" media="screen"/><![endif]-->
+
+
+<!-- The 1140px Grid - http://cssgrid.net/ -->
+<link rel="stylesheet" href="/css/1140.css?v=1" type="text/css" media="screen"/>
+
+<link rel='stylesheet' href='/css/399eaf1.css'>
+
+
+<!-- All JavaScript at the bottom, except for Modernizr which enables HTML5 elements & feature detects -->
+<script src="/js/libs/modernizr-custom.js"></script>
+<!-- Media Queries Polyfill https://github.com/h5bp/mobile-boilerplate/wiki/Media-Queries-Polyfill -->
+<script>Modernizr.mq('(min-width:0)') || document.write('<script src="/js/libs/respond.min.js"><\/script>')</script>
+<!-- TypeKit -->
+
+<script type="text/javascript" src="http://use.typekit.com/eyv7jwq.js"></script>
+<script type="text/javascript">try {
+    Typekit.load();
+} catch (e) {
+}</script>
+
+</head>
+
+<body class="products">
+
+
+
+
+      
+
+
+<div class="container header">
+    <div class="row">
+        <div class="fourcol logo">
+            <a href="/" id="logoLink"></a>
+        </div>
+        <div class="eightcol last top-nav">
+            <nav>
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/services/" class="">Services</a></li>
+                    <li><a href="/jobs/" class="">Jobs</a></li>
+                    <li><a href="/blog/" class="">Blog</a></li>
+                    <li><a href="/team/" class="">Team</a></li>
+                </ul>
+            </nav>
+
+        </div>
+    </div>
+</div>
+
+<div class="container dropdownnav">
+    <div class="row">
+        <div class="twelvecol last dropdown-nav">
+            <nav>
+                <select id="pageSelect" name="pageSelect">
+                    <option value="/" >
+                        Home
+                    </option>
+                    <option value="/products/" selected>
+                        Products
+                    </option>
+                    <option value="/services/" >
+                        Services
+                    </option>
+                    <option value="/blog/" >
+                        Blog
+                    </option>
+                    <option value="/team/" >
+                        Team
+                    </option>
+                </select>
+            </nav>
+        </div>
+    </div>
+</div>
+
+
+
+<div class="container copyright">
+    <div class="row">
+        <div class="tencol">
+            <p>
+                <small>© Copyright 2012, Quad IO, inc.</small>
+            </p>
+        </div>
+        <div class="twocol last">
+            <p>
+                <img src="/img/footer_logo_03.png"/>
+            </p>
+        </div>
+    </div>
+</div>
+
+<!-- JavaScript at the bottom for fast page loading -->
+
+<script type="text/javascript" src="/js/libs/zepto.min.js"></script>
+<script type="text/javascript" src="/js/mylibs/helper.js"></script>
+
+
+<script>
+    // iPhone Scale Bug Fix, read this when using http://www.blog.highub.com/mobile-2/a-fix-for-iphone-viewport-scale-bug/
+    window.onload = function () {
+        MBP.scaleFix();
+    }
+    MBP.hideUrlBarOnLoad();
+
+</script>
+
+
+</body>
+</html>
