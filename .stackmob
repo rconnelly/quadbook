@@ -1,0 +1,7 @@
+sm_app_name: quadbook
+sm_client_name: quadioinc
+html5: true
+ 
+development:
+  key: d1abdb91-22e8-4ef7-ad28-33ed8809383b
+  secret: a1c08e3e-19fc-4e08-8dab-f838754f3935
